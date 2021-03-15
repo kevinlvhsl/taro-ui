@@ -71,7 +71,7 @@ export default class AtCalendarList extends Taro.Component<Props> {
                 <View className='extra-marks'>
                   {item.marks.map((mark, key) => (
                     <Text key={key} className='mark'>
-                      {mark}
+                      {mark.value}
                     </Text>
                   ))}
                 </View>
